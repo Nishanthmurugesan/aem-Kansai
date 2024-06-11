@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/kansai" mode="merge"/>
+    <filter root="/content/kansai" mode="merge"/>
+    <filter root="/content/dam/kansai" mode="merge">
+        <exclude pattern="/content/dam/kansai(/.*)?"/>
+        <include pattern="/content/dam/kansai/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/kansai/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/kansai" mode="merge"/>
+</workspaceFilter>
